@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import CurrencyRow from './CurrencyRow'
-import { add, getRates } from './redux/slices/currenciesSlice'
+import { add, getRates } from '../redux/slices/currenciesSlice'
 import { useDispatch, useSelector } from 'react-redux'
 import './CurrencyList.scss'
 
